@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(250, 250, 228, 0.87);
+}
+
+
+p{
+    font-size: 2rem;
+    color: rgb(255, 166, 0);
+    
+
+}
+
+
+
+.turns{
+    color: black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 100, 139);
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#puzzle {
+    width: 600px;
+    margin: auto;
+    /* border: 4px 4px 4px 4px   solid black; */
+}
+
+.tile{
+    background-image: url('1.jpg');
+    width:200px;
+    height:200px;
+    float:left;
+    border:1px solid silver;
+    box-sizing: border-box;
+
+}
+
+#tile1 { background-position: 0 0 }
+#tile2 { background-position: -200px -0px }
+#tile3 { background-position: -400px -0px }
+#tile4 { background-position: -0px -200px }
+#tile5 { background-position: -200px -200px }
+#tile6 { background-position: -400px -200px }
+#tile7 { background-position: -0px -400px }
+#tile8 { background-position: -200px -400px }
+#tile9 { background-position: -400px -400px }
+
+#startButton{
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+}
+
+

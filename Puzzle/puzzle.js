@@ -10,6 +10,10 @@ let otherTile;
 let moves = 0;
 
 
+//REMOVE BORDERS FIRST
+for(let i=0; i<getTile.length;i++){
+    getTile[i].setAttribute("style", "border:0px")
+}
 
 //FUNCTION TO SHUFFLE IMAGE TILES
 function shuffle(){

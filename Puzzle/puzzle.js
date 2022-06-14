@@ -1,7 +1,7 @@
 let getPuzzle = document.querySelector('#puzzle');
 let getTile = getPuzzle.getElementsByClassName('tile')
 let getTurns = document.querySelector('.turns')
-let getTime = document.querySelector('.time')
+
 
 
 
